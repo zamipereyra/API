@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémon Finder</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Vincula el archivo CSS -->
+</head>
+<body>
+  <!-- Encabezado principal -->
+  <header>
+    <h1>Pokémon</h1>
+    <p>Busca un Pokémon por su nombre, o explora la lista completa</p>
+  </header>
+
+  <!-- Formulario para buscar un Pokémon -->
+  <main>
+    <form id="search-form">
+      <input 
+        type="text" 
+        id="pokemon-input" 
+        placeholder="Pikachu o 25" 
+        required
+      > <!-- Campo de texto para buscar -->
+      <button type="submit">Buscar</button> <!-- Botón para enviar -->
+    </form>
+
+    <!-- Contenedor dinámico para mostrar los Pokémon -->
+    <section id="pokemon-list">
+      <!-- Las cartas se llenarán dinámicamente con JavaScript -->
+    </section>
+  </main>
+
+  <!-- Vincula el archivo JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
+
+
